@@ -1,0 +1,62 @@
+:root{
+    --image-url: url(../img/food5.jpg);
+}
+
+.index{
+    background: linear-gradient(
+	rgba(0,0,0,0.90),
+	rgba(0,0,0,0.55),
+	rgba(0,0,0,0)) no-repeat,  var(--image-url) no-repeat;
+    background-size: cover;
+}
+header{
+    background: black;
+}
+nav ul li{
+    list-style: none;
+    margin-bottom: 0;
+}
+nav ul li a{
+    color: #fff;
+}
+.navigation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+.navigation ul{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.navigation div{
+    justify-self: end;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+.navigation div .button{
+    margin-bottom: 0;
+}
+
+.hero{
+    background: #000;
+    color: #fff;
+    height: 93vh;
+    
+}
+.hero h1, h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.index .container{
+    padding: 0;
+}
+.index .row-jsc{
+    display: flex;
+    justify-content: center;
+}
